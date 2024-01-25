@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+#menu-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-content a:hover {
+    background-color: #ddd;
+}
+
+.menu-container:hover .menu-content {
+    display: block;
+}
+
+img {
+    border-radius: 50%;
+    position: relative;
+    height: 210px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2.9px solid red;
+}
+
+header a:hover img {
+    border: 2.9px solid rgb(255, 252, 252);
+    text-decoration: none;
+}
+
+h1 {
+    color: rgba(255, 0, 0, 0.822);
+    font-size: 33.5px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: rgba(255, 0, 0, 0.822);
+    font-size: 15px;
+    text-align: center;
+}
+
+.sobre-mim h3,
+.cursos-completos h3,
+.cursando h3 {
+    color: red;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.sobre-mim p,
+.cursos-completos p,
+.cursando p {
+    font-size: 17px;
+    max-width: 50%;
+    padding-left: 10px;
+}
+
+
+
+footer {
+    max-width: 100%;
+    max-height: 100%;
+    bottom: 14px;
+    position: relative;
+
+}
+
+footer a {
+    position: relative;
+
+}
+
+footer p {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.redes-sociais {
+    position: relative;
+    
+}
+
+.redes-sociais a {
+    position: relative;
+    display: list-item;
+    align-items: center;
+}
+
+.redes-sociais img {
+    width: 45px;
+    height: 40px;
+    border: none;
+    inline-size: auto;
+   
+}
+
+.redes-sociais a:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+    * {
+        margin: 0;
+        border: none;
+        padding: 0;
+        color: white;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .menu-container {
+        display: block;
+        text-align: center;
+    }
+
+    #menu-button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .menu-content {
+        display: none;
+        position: relative;
+        background-color: #f9f9f9;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .menu-content a {
+        color: black;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .menu-content a:hover {
+        background-color: #ddd;
+    }
+
+    .menu-container:hover .menu-content {
+        display: block;
+    }
+
+    img {
+        border-radius: 50%;
+        position: relative;
+        height: 150px; /* falta alguns ajustes */
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 2.9px solid red;
+    }
+
+    header a:hover img {
+        border: 2.9px solid rgb(255, 252, 252);
+        text-decoration: none;
+    }
+
+    h1 {
+        color: rgba(255, 0, 0, 0.822);
+        font-size: 25px; /* falta alguns ajustes */
+        text-align: center;
+        padding-top: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    h2 {
+        color: rgba(255, 0, 0, 0.822);
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .sobre-mim h3,
+    .cursos-completos h3,
+    .cursando h3 {
+        color: red;
+        font-size: 18px; /* falta alguns ajustes */
+        font-family: sans-serif;
+        padding-left: 10px;
+        padding-top: 25px;
+    }
+
+    .sobre-mim p,
+    .cursos-completos p,
+    .cursando p {
+        font-size: 15px; /* falta alguns ajustes */
+        max-width: 50%;
+        padding-left: 10px;
+    }
+
+    .conteudo {
+        max-width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    footer {
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        bottom: -10px;
+    }
+
+    footer a {
+        text-decoration: none;
+    }
+
+    .redes-sociais {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .redes-sociais a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .redes-sociais img {
+        width: 25px; /* falta alguns ajustes */
+        height: 25px; /* falta alguns ajustes */
+        border: none;
+        left: 25px;
+        inline-size: auto;
+
+    }
+
+    .github img {
+        left: 33.5px;
+    }
+
+    .redes-sociais a:hover {
+        opacity: 0.8;
+    }
+}
