@@ -228,7 +228,7 @@ footer p {
     .cursos-completos p,
     .cursando p {
         font-size: 15px; /* falta alguns ajustes */
-        max-width: 65%;
+        max-width: 90%;
         padding-left: 10px;
     }
 
