@@ -88,7 +88,7 @@ h2 {
 .cursos-completos p,
 .cursando p {
     font-size: 17px;
-    max-width: 50%;
+    max-width: 65%;
     padding-left: 10px;
 }
 
@@ -228,7 +228,7 @@ footer p {
     .cursos-completos p,
     .cursando p {
         font-size: 15px; /* falta alguns ajustes */
-        max-width: 50%;
+        max-width: 65%;
         padding-left: 10px;
     }
 
